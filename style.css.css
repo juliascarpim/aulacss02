@@ -1,0 +1,27 @@
+/* Arquico CSS da aula de Desen volvimento para internet - Unipar 2025 (07/05) */
+
+/* resete css é importante p zerar todos os estilos aplicados */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Variáveis : posso salvar nas variáveis configurações que podem ser usadas globalmente no CSS (sempre começo com ":"*/
+:root{
+    --primary-color: rgb(103, 115, 216);
+    --font-size: 12px;
+}
+
+
+/*Componentes: são botões, formulários, input's, select's, etc. */
+button{
+    background-color: var(--primary-color);
+    font-size: var(--font-size);
+    color:aliceblue;
+    padding: 2%;
+    height: 10%; /*10% da tela do usuario*/
+    width: 50%;
+    min-height: 100px;
+    max-height: 500px;
+}
